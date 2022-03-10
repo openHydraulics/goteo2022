@@ -1,4 +1,4 @@
-%Función que calcula la distribución de caudales de los emisores de un ramal
+# Función que calcula los caudales de los emisores de un ramal
 
 function [q, h, xR, zR] = ramal(h0, I0, k, x, varManuf, n, s, D, le)
   vectorUnos=ones(n,1);
