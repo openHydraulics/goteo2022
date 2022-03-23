@@ -3,6 +3,9 @@ clear; % Elimina las variables del espacio de trabajo
 close all; % Cierra las ventanas abiertas (gráficos,...)
 clc; % Borra la ventana de comandos
 
+# Se establece el valor semilla de la funcion de generacion de numeros pseudoaleatorios randn(), para que sea aleatoria.
+randn('state',sum(100*clock));
+
 addpath('src') % Ruta en la que se ubicarán los archivos con funciones
 
 # Parámetros de la unidad (unidades en el SI, salvo indicación)
